@@ -14,5 +14,10 @@
   "license": "ISC",
   "devDependencies": {
     "parcel": "^2.14.4"
+  },
+  "dependencies": {
+    "gh-pages": "^6.3.0",
+    "parcel-reporter-clean-dist": "^1.0.4",
+    "posthtml-include": "^2.0.1"
   }
 }
