@@ -2,11 +2,11 @@
   "name": "parcel",
   "version": "1.0.0",
   "description": "",
-  "homepage": "https://github.com/egor-goloshchapov/parcel.git",
+  "homepage": "https://egor-goloshchapov.github.io/parcel/",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "npx parcel src/index.html",
-    "build": "parcel build src/index.html --no-cache",
+    "build": "parcel build src/index.html --no-cache --public-url /parcel/",
     "deploy": "gh-pages -d dist",
     "predeploy": "npm run build"
   },
